@@ -20,11 +20,8 @@
     "convert/links.js",
     "convert/lists.js"
   ],
-  "background": {
-    "page": "script.html"
-  },
   "manifest_version": 2,
-  "name": "Markdown Converter",
+  "name": "Markdown Viewer",
   "version": "1.0.0",
-  "description": "lol"
+  "description": "View Markdown files in Chrome"
 }
