@@ -1,0 +1,30 @@
+{
+  "content_scripts": [
+    {
+      "matches": ["file://*/*.md"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    "index.js",
+    "helpers.js",
+    "convert/index.js",
+    "convert/bold.js",
+    "convert/code.js",
+    "convert/codeblock.js",
+    "convert/headers.js",
+    "convert/images.js",
+    "convert/italics.js",
+    "convert/links.js",
+    "convert/lists.js"
+  ],
+  "background": {
+    "page": "script.html"
+  },
+  "manifest_version": 2,
+  "name": "Markdown Converter",
+  "version": "1.0.0",
+  "description": "lol"
+}
